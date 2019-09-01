@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-dic-2018, 13:04:42
+    Author     : Ciriusblb
+*/
+
+ .panel
+        {
+          margin: 5%;
+          background: transparent;
+        }
+
+
+        #table1 tr
+        {
+          transition: all 0.5s;
+        }
+         #table1 tr:hover
+        {
+          background-color: #f0ad4e;
+          transition: 0.5s;
+        }
+        .btn-warning
+        {
+          transition: all 0.8s;
+        }
+
+         #table1 .btn-warning:hover, .btn-warning:focus
+        {
+          transition: 0.8s;
+          background-color: #428bca;
+          border-color: #428bca;
+        }
+
+        .panel-footer
+        {
+          background-color: #5bc0de;
+          color: white;
+        }
+        
+ 
